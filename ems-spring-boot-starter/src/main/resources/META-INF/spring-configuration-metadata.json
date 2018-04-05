@@ -1,0 +1,40 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.jet.ems.autoconfigure.EmsProperties",
+      "name": "third-service.ems",
+      "type": "com.jet.ems.autoconfigure.EmsProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.jet.ems.autoconfigure.EmsProperties",
+      "defaultValue": true,
+      "name": "third-service.ems.active",
+      "description": "是否激活错误日志发送功能",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.jet.ems.autoconfigure.EmsProperties",
+      "name": "third-service.ems.exclude-resource-suffix",
+      "type": "java.lang.String[]"
+    },
+    {
+      "sourceType": "com.jet.ems.autoconfigure.EmsProperties",
+      "name": "third-service.ems.include-resource-suffix",
+      "type": "java.lang.String[]"
+    },
+    {
+      "sourceType": "com.jet.ems.autoconfigure.EmsProperties",
+      "name": "third-service.ems.mail-to",
+      "description": "错误消息收件人",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.jet.ems.autoconfigure.EmsProperties",
+      "name": "third-service.ems.system-name",
+      "type": "java.lang.String"
+    }
+  ]
+}
